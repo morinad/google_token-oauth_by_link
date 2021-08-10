@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2026
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{4DF76451-A46A-4C0B-BE03-459FAAFA07E6}") = "googleToken", "googleToken\googleToken.mproj", "{A2E9F720-F7DA-4D02-B491-0D6F82CB4DB9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A2E9F720-F7DA-4D02-B491-0D6F82CB4DB9}.Debug|x86.ActiveCfg = Debug|x86
+		{A2E9F720-F7DA-4D02-B491-0D6F82CB4DB9}.Debug|x86.Build.0 = Debug|x86
+		{A2E9F720-F7DA-4D02-B491-0D6F82CB4DB9}.Release|x86.ActiveCfg = Release|x86
+		{A2E9F720-F7DA-4D02-B491-0D6F82CB4DB9}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AB01A832-A5AD-4B1D-A34D-C77F957C0D07}
+	EndGlobalSection
+EndGlobal
