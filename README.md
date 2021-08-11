@@ -10,7 +10,7 @@
 ### Как воспользоваться коннектором:
 
 1) Скачайте файл коннектора googleToken.mez и поместите в папку C:\Users\USERNAME\Documents\Power BI Desktop\Custom Connectors, подставив USERNAME своего компьютера.: 
-https://github.com/morinad/google_token/raw/main/googleToken.mez
+https://github.com/morinad/google_token-oauth_by_link/raw/main/googleToken.mez
 
 2) Откройте Power BI, зайдите в Файл -> Параметры и настройки -> Параметры -> Глобальные -> Безопасность, выберите "Разрешить загрузку любого расширения без проверок и предупреждений".
 
