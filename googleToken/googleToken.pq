@@ -4,8 +4,8 @@ section googleToken;
 gsc_client_id = "184724904685-9djgus8luf6ksjoc06ae8absssum5mf9.apps.googleusercontent.com";
 gsc_client_secret = "7hcVi_TEl5wmELtC4UIQQGNL";
 
-ads_client_id = "915356191438-3cj8gu3ddocdrhpm18q2vcrqf25pk8mo.apps.googleusercontent.com";
-ads_client_secret = "RnRikyaGJJPNERlOvEwIlz2t";
+ads_client_id = "282667056363-mse7dsjoo2i2pjkd5elqd3okvsdt7mqf.apps.googleusercontent.com";
+ads_client_secret = "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";
 
 analytics_client_id = "299222177909-8mvc09uilhdrick7kqjvf4hsi3tp4duc.apps.googleusercontent.com";
 analytics_client_secret = "ELtgNWb9teqd20vCqDdARaok";
@@ -34,7 +34,7 @@ FuncType =  type function (
         Documentation.Examples = {
         [
             Description = "Ссылка для Google Ads",
-            Code = "https://accounts.google.com/ServiceLogin?continue=https://accounts.google.com/o/oauth2/auth?scope%3Dhttps://www.googleapis.com/auth/adwords%26response_type%3Dcode%26access_type%3Doffline%26redirect_uri%3Durn:ietf:wg:oauth:2.0:oob%26client_id%3D915356191438-3cj8gu3ddocdrhpm18q2vcrqf25pk8mo.apps.googleusercontent.com%26from_login%3D1",
+            Code = "https://accounts.google.com/ServiceLogin?continue=https://accounts.google.com/o/oauth2/auth?scope%3Dhttps://www.googleapis.com/auth/adwords%26response_type%3Dcode%26access_type%3Doffline%26redirect_uri%3Durn:ietf:wg:oauth:2.0:oob%26client_id%3D282667056363-mse7dsjoo2i2pjkd5elqd3okvsdt7mqf.apps.googleusercontent.com%26from_login%3D1",
             Result ="Code"
         ],
         [
