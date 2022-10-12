@@ -7,8 +7,8 @@ gsc_client_secret = "7hcVi_TEl5wmELtC4UIQQGNL";
 ads_client_id = "282667056363-mse7dsjoo2i2pjkd5elqd3okvsdt7mqf.apps.googleusercontent.com";
 ads_client_secret = "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";
 
-analytics_client_id = "299222177909-8mvc09uilhdrick7kqjvf4hsi3tp4duc.apps.googleusercontent.com";
-analytics_client_secret = "ELtgNWb9teqd20vCqDdARaok";
+analytics_client_id = "341719649792-bepi5bhc9lgip47apa14537jm5hm0k0h.apps.googleusercontent.com";
+analytics_client_secret = "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";
 
 [DataSource.Kind="googleToken", Publish="googleToken.Publish"]
 
@@ -34,17 +34,17 @@ FuncType =  type function (
         Documentation.Examples = {
         [
             Description = "Ссылка для Google Ads",
-            Code = "https://accounts.google.com/ServiceLogin?continue=https://accounts.google.com/o/oauth2/auth?scope%3Dhttps://www.googleapis.com/auth/adwords%26response_type%3Dcode%26access_type%3Doffline%26redirect_uri%3Durn:ietf:wg:oauth:2.0:oob%26client_id%3D282667056363-mse7dsjoo2i2pjkd5elqd3okvsdt7mqf.apps.googleusercontent.com%26from_login%3D1",
+            Code = "https://accounts.google.com/ServiceLogin?continue=https://accounts.google.com/o/oauth2/auth?scope%3Dhttps://www.googleapis.com/auth/adwords%26response_type%3Dcode%26access_type%3Doffline%26redirect_uri%3Dhttp%3A//127.0.0.1%3A9004%26client_id%3D282667056363-mse7dsjoo2i2pjkd5elqd3okvsdt7mqf.apps.googleusercontent.com%26from_login%3D1",
             Result ="Code"
         ],
         [
             Description = "Ссылка для Google Analytics",
-            Code = "https://accounts.google.com/ServiceLogin?continue=https://accounts.google.com/o/oauth2/auth?scope%3Dhttps://www.googleapis.com/auth/analytics.readonly%26response_type%3Dcode%26access_type%3Doffline%26redirect_uri%3Durn:ietf:wg:oauth:2.0:oob%26client_id%3D299222177909-8mvc09uilhdrick7kqjvf4hsi3tp4duc.apps.googleusercontent.com%26from_login%3D1",
+            Code = "https://accounts.google.com/ServiceLogin?continue=https://accounts.google.com/o/oauth2/auth?scope%3Dhttps://www.googleapis.com/auth/analytics.readonly%26response_type%3Dcode%26access_type%3Doffline%26redirect_uri%3Dhttp%3A//127.0.0.1%3A9004%26client_id%3D341719649792-bepi5bhc9lgip47apa14537jm5hm0k0h.apps.googleusercontent.com%26from_login%3D1",
             Result ="Code"
         ],
         [
             Description = "Ссылка для Google Search Console",
-            Code = "https://accounts.google.com/ServiceLogin?continue=https://accounts.google.com/o/oauth2/auth?scope%3Dhttps://www.googleapis.com/auth/webmasters.readonly%26response_type%3Dcode%26access_type%3Doffline%26redirect_uri%3Durn:ietf:wg:oauth:2.0:oob%26client_id%3D184724904685-9djgus8luf6ksjoc06ae8absssum5mf9.apps.googleusercontent.com%26from_login%3D1",
+            Code = "https://accounts.google.com/ServiceLogin?continue=https://accounts.google.com/o/oauth2/auth?scope%3Dhttps://www.googleapis.com/auth/webmasters.readonly%26response_type%3Dcode%26access_type%3Doffline%26redirect_uri%3Dhttp%3A//127.0.0.1%3A9004%26client_id%3D184724904685-9djgus8luf6ksjoc06ae8absssum5mf9.apps.googleusercontent.com%26from_login%3D1",
             Result ="Code"
         ]
         }
@@ -61,7 +61,7 @@ googleToken.Get = (srvc as text,  code as text ) =>
 
     code = "code=" & code,
 
-    url = code & "&" & app_credentials & "&redirect_uri=urn:ietf:wg:oauth:2.0:oob&grant_type=authorization_code",
+    url = code & "&" & app_credentials & "&redirect_uri=http%3A//127.0.0.1%3A9004&grant_type=authorization_code",
     GetJson = Web.Contents("https://accounts.google.com",
       [
         RelativePath = "/o/oauth2/token",
