@@ -1,11 +1,11 @@
 ﻿// This file contains your Data Connector logic
 section googleToken;
 
-gsc_client_id = "184724904685-9djgus8luf6ksjoc06ae8absssum5mf9.apps.googleusercontent.com";
+gsc_client_id = "184724904685-9djgus8luf6ksjoc06ae8absssum5mf9.apps.googleusercontent.com"; 
 gsc_client_secret = "7hcVi_TEl5wmELtC4UIQQGNL";
 
-ads_client_id = "282667056363-mse7dsjoo2i2pjkd5elqd3okvsdt7mqf.apps.googleusercontent.com";
-ads_client_secret = "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";
+ads_client_id = "13860562608-rolk2hhj4tecggm0k1odjrfo5m905hce.apps.googleusercontent.com";
+ads_client_secret = "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";
 
 analytics_client_id = "341719649792-bepi5bhc9lgip47apa14537jm5hm0k0h.apps.googleusercontent.com";
 analytics_client_secret = "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";
