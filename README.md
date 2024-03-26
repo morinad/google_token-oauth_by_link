@@ -28,7 +28,7 @@ https://github.com/morinad/google_token-oauth_by_link/raw/main/googleToken.mez
 3) Выберите сервис - Google Ads, Google Analytics или Google Search Console. Для каждого сервиса будет своя ссылка.
 
 
-Google Ads: https://accounts.google.com/ServiceLogin?continue=https://accounts.google.com/o/oauth2/auth?scope%3Dhttps://www.googleapis.com/auth/adwords%26response_type%3Dcode%26access_type%3Doffline%26redirect_uri%3Dhttp%3A//127.0.0.1%3A9004%26client_id%3D282667056363-mse7dsjoo2i2pjkd5elqd3okvsdt7mqf.apps.googleusercontent.com%26from_login%3D1
+Google Ads: https://accounts.google.com/ServiceLogin?continue=https://accounts.google.com/o/oauth2/auth?scope%3Dhttps://www.googleapis.com/auth/adwords%26response_type%3Dcode%26access_type%3Doffline%26redirect_uri%3Dhttp%3A//127.0.0.1%3A9004%26client_id%3D13860562608-rolk2hhj4tecggm0k1odjrfo5m905hce.apps.googleusercontent.com%26from_login%3D1
 
 Google Analytics: https://accounts.google.com/ServiceLogin?continue=https://accounts.google.com/o/oauth2/auth?scope%3Dhttps://www.googleapis.com/auth/analytics.readonly%26response_type%3Dcode%26access_type%3Doffline%26redirect_uri%3Dhttp%3A//127.0.0.1%3A9004%26client_id%3D341719649792-bepi5bhc9lgip47apa14537jm5hm0k0h.apps.googleusercontent.com%26from_login%3D1
 
