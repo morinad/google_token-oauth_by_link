@@ -34,6 +34,8 @@ Google Analytics: https://accounts.google.com/ServiceLogin?continue=https://acco
 
 Google Search Console: https://accounts.google.com/ServiceLogin?continue=https://accounts.google.com/o/oauth2/auth?scope%3Dhttps://www.googleapis.com/auth/webmasters.readonly%26response_type%3Dcode%26access_type%3Doffline%26redirect_uri%3Dhttp%3A//127.0.0.1%3A9004%26client_id%3D184724904685-9djgus8luf6ksjoc06ae8absssum5mf9.apps.googleusercontent.com%26from_login%3D1
 
+Google Sheets: https://accounts.google.com/ServiceLogin?continue=https://accounts.google.com/o/oauth2/auth?scope%3Dhttps://www.googleapis.com/auth/spreadsheets%26response_type%3Dcode%26access_type%3Doffline%26redirect_uri%3Dhttp%3A//127.0.0.1%3A9004%26client_id%3D94751375714-8fl0tna32fj28g7bsignpkgi0upip55b.apps.googleusercontent.com%26from_login%3D1
+
 4) Нажмите на кнопку "Получить данные", в поиске найдите коннектор googleToken. Выбрав коннектор, укажите нужное API и код, полученный в пункте 3. На выходе вы получите refresh_token.
 
 5) Используйте refresh_token в соответствующем коннекторе для получения данных. 
